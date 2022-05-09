@@ -8,8 +8,8 @@
 </head>
 <body>
     
-    <div id="root">
-
+    <div id="app">
+        <div v-for="index in arrayDischi">{{index}}</div>
     </div>
 
 <!-- Vue cdn -->

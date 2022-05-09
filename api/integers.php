@@ -53,5 +53,12 @@ Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, a
     ];
 
     header('Content-Type: application/json');
+
     echo json_encode($database);
+
+    foreach ($database as $key => $dischi) {
+        foreach ($dischi as $key => $value) {
+            echo $value;
+        }
+    }
 ?>
