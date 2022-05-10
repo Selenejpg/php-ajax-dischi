@@ -19,7 +19,7 @@
         </div>
     </header>
 
-    <main class="bg-dark">
+    <main class="bg-dark pb-5">
         <div class="container">
             <div class="row row-cols-3 g-3 pt-5">
                 <!-- inizio ciclo -->
