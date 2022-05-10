@@ -1,12 +1,4 @@
-<!-- 
-Prima Milestone:
-Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i dischi in pagina: al caricamento della pagina ci saranno tutti i dischi.
-Seconda Milestone:
-Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, attraverso una chiamata api, i dischi a php e li stamperà attraverso vue.
--->
-
 <?php
-
     $database = [
         [
             'title' => 'New Jersey',
@@ -51,14 +43,4 @@ Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, a
             'genre' => 'Rock'
         ]
     ];
-
-    header('Content-Type: application/json');
-
-    echo json_encode($database);
-
-    foreach ($database as $key => $dischi) {
-        foreach ($dischi as $key => $value) {
-            echo $value;
-        }
-    }
 ?>
